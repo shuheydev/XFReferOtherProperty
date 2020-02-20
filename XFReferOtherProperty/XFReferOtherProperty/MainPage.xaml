@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XFReferOtherProperty.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converter="clr-namespace:XFReferOtherProperty"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackLayout>
+
+        <!--  Place new controls here  -->
+
+        <Button
+            x:Name="ButtonA"
+            HorizontalOptions="Center"
+            Text="ButtonA"
+            VerticalOptions="Center"
+            WidthRequest="100" />
+
+        <!--  ButtonAと同じ幅にする  -->
+        <Button
+            x:Name="ButtonB"
+            HorizontalOptions="Center"
+            Text="ButtonB"
+            VerticalOptions="Center"
+            WidthRequest="{Binding Source={x:Reference ButtonA}, Path=WidthRequest}" />
+
+        <!--  高さをButtonAの幅と同じ値にする  -->
+        <Button
+            x:Name="ButtonC"
+            HeightRequest="{Binding Source={x:Reference ButtonC}, Path=WidthRequest}"
+            HorizontalOptions="Center"
+            Text="ButtonC"
+            VerticalOptions="Center"
+            WidthRequest="100" />
+
+        <!--  Converterを使って,高さを自身の幅の0.6043倍にする  -->
+        <Button
+            x:Name="ButtonD"
+            HeightRequest="{Binding Source={x:Reference ButtonD}, Path=WidthRequest, Converter={converter:AspectRatioConverter}}"
+            HorizontalOptions="Center"
+            Text="ButtonD"
+            VerticalOptions="Center"
+            WidthRequest="100" />
+    </StackLayout>
+
+    <!--  うまくいかない.循環参照でエラーになる  -->
+    <!--<RelativeLayout Padding="0" BackgroundColor="Pink">
+        <Button
+            x:Name="ButtonA"
+            HorizontalOptions="Center"
+            Text="ButtonA"
+            VerticalOptions="Center"
+            WidthRequest="100" />
+        <Button
+            x:Name="ButtonE"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView,
+                                                                   ElementName=ButtonE,
+                                                                   Property=Width,
+                                                                   Factor=0.6043}"
+            Text="ButtonE"
+            WidthRequest="250" />
+    </RelativeLayout>-->
+
+</ContentPage>

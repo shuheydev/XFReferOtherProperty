@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFReferOtherProperty.Android", "XFReferOtherProperty\XFReferOtherProperty.Android\XFReferOtherProperty.Android.csproj", "{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFReferOtherProperty.iOS", "XFReferOtherProperty\XFReferOtherProperty.iOS\XFReferOtherProperty.iOS.csproj", "{D53125EA-5585-4D22-84D4-8C16CAAAAD58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFReferOtherProperty", "XFReferOtherProperty\XFReferOtherProperty\XFReferOtherProperty.csproj", "{529BF0A0-7E88-46AD-9E00-97E745726CF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Release|iPhone.Build.0 = Release|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Release|iPhone.Deploy.0 = Release|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5FD34012-7B7B-46C6-A6D4-EAC4B993EE7D}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Debug|Any CPU.Deploy.0 = Debug|iPhoneSimulator
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Debug|iPhone.Deploy.0 = Debug|iPhone
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Release|Any CPU.Build.0 = Release|iPhone
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Release|Any CPU.Deploy.0 = Release|iPhone
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Release|iPhone.Build.0 = Release|iPhone
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Release|iPhone.Deploy.0 = Release|iPhone
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{D53125EA-5585-4D22-84D4-8C16CAAAAD58}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Release|iPhone.Build.0 = Release|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Release|iPhone.Deploy.0 = Release|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{529BF0A0-7E88-46AD-9E00-97E745726CF7}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF34945F-9BE6-4F2A-B032-10D51A7DFBFE}
+	EndGlobalSection
+EndGlobal
